@@ -64,4 +64,4 @@ WORKDIR /snap/app
 
 VOLUME [ "/snap/app" ]
 
-ENTRYPOINT ["/usr/bin/electron-installer-snap"]
+ENTRYPOINT ["/usr/local/bin/electron-installer-snap"]
